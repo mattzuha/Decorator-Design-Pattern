@@ -98,7 +98,15 @@ int main()
 
     cout << "House Blend"
          << "| Description: " << b.getDescription()
-         << "| Cost: " << b.cost() << endl;     
+         << "| Cost: " << b.cost() << endl;
+    
+    HouseBlend c;
+    c.setMilk(true);
+    c.setMilk(true);
+
+    cout << "House Blend"
+         << "| Description: " << c.getDescription()
+         << "| Cost: " << c.cost() << endl;
 
 
     return 0;
