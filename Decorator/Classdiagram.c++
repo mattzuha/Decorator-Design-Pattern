@@ -101,7 +101,7 @@ int main()
          << "| Cost: " << b.cost() << endl;
     
     HouseBlend c;
-    c.setMilk(true);
+    c.setSoy(true);
     c.setMilk(true);
 
     cout << "House Blend"
